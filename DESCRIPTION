@@ -15,12 +15,14 @@ Imports:
   ggplot2,
   jaspBase,
   jaspGraphs,
+  jaspTools,
   logspline,
   plotrix,
   plyr
 Remotes:
   jasp-stats/jaspBase,
-  jasp-stats/jaspGraphs
+  jasp-stats/jaspGraphs,
+  kucharssim/jaspTools@ugradeTests
 URL: https://kucharssim.github.io/jaspTTests/
 RoxygenNote: 7.1.2
 Suggests: 
