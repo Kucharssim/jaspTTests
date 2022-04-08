@@ -56,3 +56,4 @@ Rproj.user
 /renv.lock
 /renv
 docs
+inst/doc

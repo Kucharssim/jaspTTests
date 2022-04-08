@@ -23,3 +23,6 @@ Remotes:
   jasp-stats/jaspGraphs
 URL: https://kucharssim.github.io/jaspTTests/
 RoxygenNote: 7.1.2
+Suggests: 
+    knitr
+VignetteBuilder: knitr
