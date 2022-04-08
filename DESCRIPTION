@@ -22,3 +22,4 @@ Remotes:
   jasp-stats/jaspBase,
   jasp-stats/jaspGraphs
 URL: https://kucharssim.github.io/jaspTTests/
+RoxygenNote: 7.1.2
