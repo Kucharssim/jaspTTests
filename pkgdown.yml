@@ -2,8 +2,8 @@ pandoc: 2.7.3
 pkgdown: 2.0.2
 pkgdown_sha: ~
 articles:
-  independentsamplesttest-hays-1974-example: tests/independentsamplesttest-hays-1974-example.html
-last_built: 2022-04-08T12:05Z
+  independentsamplesttest-welch-t-test-example-by-hays-1974: tests/independentsamplesttest-welch-t-test-example-by-hays-1974.html
+last_built: 2022-04-08T14:31Z
 urls:
   reference: https://kucharssim.github.io/jaspTTests/reference
   article: https://kucharssim.github.io/jaspTTests/articles
