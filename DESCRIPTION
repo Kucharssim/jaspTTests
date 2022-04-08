@@ -24,5 +24,7 @@ Remotes:
 URL: https://kucharssim.github.io/jaspTTests/
 RoxygenNote: 7.1.2
 Suggests: 
-    knitr
+    knitr,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Config/testthat/edition: 3
