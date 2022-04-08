@@ -2,6 +2,7 @@
 title: "independentSamplesTTest: Welch t-test example by Hays (1974)"
 output: rmarkdown::html_vignette
 vignette: >
+  %\VignetteIndexEntry{independentSamplesTTest: Welch t-test example by Hays (1974)}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
