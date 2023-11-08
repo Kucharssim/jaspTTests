@@ -109,7 +109,7 @@ knitr::kable(results[["ttest"]])
 
 <!-- Write here unit tests -->
 
-```{r unit-tests, include=FALSE}
+```{r unit-tests, include=TRUE}
 try({testthat::local_edition(3)
 testthat::test_that("Welch t-test example by Hays (1974) works", {
   #> Add code here to specify the tests, for example:
