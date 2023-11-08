@@ -212,7 +212,22 @@ simulated using R.</p>
 <td align="right">0.039239</td>
 </tr></tbody>
 </table>
-<!-- Write here unit tests -->
+<!-- Write here unit tests --><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="op">{</span><span class="fu">testthat</span><span class="fu">::</span><span class="fu"><a href="https://testthat.r-lib.org/reference/local_edition.html" class="external-link">local_edition</a></span><span class="op">(</span><span class="fl">3</span><span class="op">)</span></span>
+<span><span class="fu">testthat</span><span class="fu">::</span><span class="fu"><a href="https://testthat.r-lib.org/reference/test_that.html" class="external-link">test_that</a></span><span class="op">(</span><span class="st">"Welch t-test example by Hays (1974) works"</span>, <span class="op">{</span></span>
+<span>  <span class="co">#&gt; Add code here to specify the tests, for example:</span></span>
+<span>  <span class="fu">jaspTools</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/jaspTools/man/expect_jasp_output.html" class="external-link">expect_jasp_table</a></span><span class="op">(</span><span class="va">results</span><span class="op">[[</span><span class="st">"ttest"</span><span class="op">]</span><span class="op">]</span><span class="op">)</span></span>
+<span>  <span class="co">#&gt; jaspTools::expect_jasp_plot (results[["mainPlot"]] )</span></span>
+<span><span class="op">}</span><span class="op">)</span><span class="op">}</span><span class="op">)</span></span>
+<span><span class="co">#&gt; -- Error: Welch t-test example by Hays (1974) works ----------------------------</span></span>
+<span><span class="co">#&gt; Error in `edition_require(3, "expect_snapshot_output()")`: `expect_snapshot_output()` requires the 3rd edition.</span></span>
+<span><span class="co">#&gt; Backtrace:</span></span>
+<span><span class="co">#&gt;     x</span></span>
+<span><span class="co">#&gt;  1. \-jaspTools::expect_jasp_table(results[["ttest"]])</span></span>
+<span><span class="co">#&gt;  2.   \-testthat::expect_snapshot_output(x = print(x, digits = digits))</span></span>
+<span><span class="co">#&gt;  3.     \-testthat:::edition_require(3, "expect_snapshot_output()")</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; Error : Test failed</span></span></code></pre></div>
 </div>
 </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
