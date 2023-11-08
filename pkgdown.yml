@@ -3,7 +3,7 @@ pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   independentsamplesttest-welch-t-test-example-by-hays-1974: tests/independentsamplesttest-welch-t-test-example-by-hays-1974.html
-last_built: 2023-11-08T17:44Z
+last_built: 2023-11-08T19:00Z
 urls:
   reference: https://kucharssim.github.io/jaspTTests/reference
   article: https://kucharssim.github.io/jaspTTests/articles
