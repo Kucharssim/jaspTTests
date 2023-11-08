@@ -24,7 +24,7 @@ Remotes:
   jasp-stats/jaspGraphs,
   kucharssim/jaspTools@upgradeTests
 URL: https://kucharssim.github.io/jaspTTests/
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Suggests: 
     knitr,
     testthat (>= 3.0.0)
