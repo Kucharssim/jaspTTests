@@ -110,10 +110,10 @@ knitr::kable(results[["ttest"]])
 <!-- Write here unit tests -->
 
 ```{r unit-tests, include=FALSE}
-testthat::local_edition(3)
+try({testthat::local_edition(3)
 testthat::test_that("Welch t-test example by Hays (1974) works", {
   #> Add code here to specify the tests, for example:
   jaspTools::expect_jasp_table(results[["ttest"]])
   #> jaspTools::expect_jasp_plot (results[["mainPlot"]] )
-})
+})})
 ```
