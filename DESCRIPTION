@@ -21,8 +21,7 @@ Imports:
   plyr
 Remotes:
   jasp-stats/jaspBase,
-  jasp-stats/jaspGraphs,
-  kucharssim/jaspTools@upgradeTests
+  jasp-stats/jaspGraphs
 URL: https://kucharssim.github.io/jaspTTests/
 RoxygenNote: 7.2.3
 Suggests: 
