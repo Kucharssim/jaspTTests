@@ -49,7 +49,6 @@ The actual results provided by Hays (1974) were
 The data set can be obtained in R as follows:
 
 ```{r load-data}
-#> Replace the code here to load the data into the `data`.
 set.seed(1)
 m1 <- scale(rnorm(125)) * 0.7 + 1.8
 m2 <- scale(rnorm(150)) * 0.9 + 1.6
@@ -86,8 +85,6 @@ Significant (two-tailed test) for $\alpha = .05$ or less
 ### Results using R
 
 ```{r run-r-analysis, purl=FALSE}
-#> Add code below to show how to run the analysis in R (without using jaspTTests::independentSamplesTTest())
-#> Alternatively, disable this section in case the analysis cannot be easily conducted in R without JASP.
 t.test(formula = size~family, data = data)
 ```
 
@@ -96,7 +93,6 @@ t.test(formula = size~family, data = data)
 The analysis can be run as follows:
 
 ```{r run-jasp-analysis}
-#> Modify the code below to run the analysis
 set.seed(1)
 results <- jaspTTests::independentSamplesTTest(
   data      = data, 
@@ -108,13 +104,13 @@ results <- jaspTTests::independentSamplesTTest(
 And the relevant output is:
 
 ```{r show-jasp-results, purl=FALSE}
-#> Add code here to display the correct output, for example:
 knitr::kable(results[["ttest"]])
 ```
 
 <!-- Write here unit tests -->
 
 ```{r unit-tests, include=FALSE}
+testthat::local_edition(3)
 testthat::test_that("Welch t-test example by Hays (1974) works", {
   #> Add code here to specify the tests, for example:
   jaspTools::expect_jasp_table(results[["ttest"]])

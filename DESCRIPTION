@@ -22,11 +22,10 @@ Imports:
 Remotes:
   jasp-stats/jaspBase,
   jasp-stats/jaspGraphs,
-  kucharssim/jaspTools@ugradeTests
+  kucharssim/jaspTools@upgradeTests
 URL: https://kucharssim.github.io/jaspTTests/
 RoxygenNote: 7.1.2
 Suggests: 
     knitr,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
-Config/testthat/edition: 3
