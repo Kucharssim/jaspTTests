@@ -9,7 +9,7 @@
 #' @examples
 #' independentSamplesTTest(data = sleep, dependent = "extra", groupBy = "group")
 #' @export
-independentSamplesTTest <- function(data, dependent, groupBy, formula = NULL) {
+independentSamplesTTest <- function(data, dependent, groupBy) {
   ttest <- data.frame(dependent = dependent, t = NA, df = NA, p = NA)
   for(dep in dependent) {
     formula <- as.formula(paste(dep, groupBy, sep = "~"))
